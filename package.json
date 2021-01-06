@@ -16,6 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "lint": "eslint --ext .js,.vue src",
     "lintcss": "stylelint 'src/**/*.css' --fix"
   },
   "eslintConfig": {
@@ -37,6 +38,8 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-plugin-react": "^7.22.0",
     "install": "^0.13.0",
     "stylelint": "^13.8.0",
     "stylelint-config-standard": "^20.0.0",
