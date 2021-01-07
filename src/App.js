@@ -9,13 +9,13 @@ export default class App extends React.Component {
 
   handleClick = () => {}
 
-  componentWillMount() {}
+  UNSAFE_componentWillMount() {}
 
   componentDidMount() {}
 
-  componentWillUpdate() {}
+  UNSAFE_componentWillUpdate() {}
 
-  componentWillReceiveProps() {}
+  UNSAFE_componentWillReceiveProps() {}
 
   shouldComponentUpdate() {}
 
