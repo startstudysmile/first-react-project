@@ -23,6 +23,12 @@ export default class App extends React.Component {
 
   componentWillUnmount() {}
 
+  // 此生命周期在后代组件抛出错误后被调用
+  componentDidCatch(error, info) {
+    console.log(error)
+    console.log(info)
+  }
+
   render() {
     return (
       <div className="App">
