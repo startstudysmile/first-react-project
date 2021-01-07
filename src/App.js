@@ -9,6 +9,20 @@ export default class App extends React.Component {
 
   handleClick = () => {}
 
+  componentWillMount() {}
+
+  componentDidMount() {}
+
+  componentWillUpdate() {}
+
+  componentWillReceiveProps() {}
+
+  shouldComponentUpdate() {}
+
+  componentDidUpdate() {}
+
+  componentWillUnmount() {}
+
   render() {
     return (
       <div className="App">
